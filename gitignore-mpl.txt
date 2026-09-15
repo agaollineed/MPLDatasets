@@ -1,0 +1,24 @@
+# macOS — ZIP kamu tadi penuh dengan ini
+.DS_Store
+__MACOSX/
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# SQLite sisa proses, bukan basis datanya sendiri
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Editor
+.vscode/
+.idea/
+
+# Jangan abaikan mpl.db — itu justru isi utama repo ini.
+# Kalau nanti kamu pindah ke Releases, hapus tanda komentar di bawah:
+# database/mpl.db
